@@ -10,8 +10,8 @@ function App() {
     <div>
      <Navbar />
      <Home />
-     {/* <Mains />
-     <Footer /> */}
+     <Mains />
+     {/* <Footer /> */}
     </div>
   )
 }
