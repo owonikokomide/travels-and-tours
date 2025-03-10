@@ -173,4 +173,17 @@
 }
 .footer .secContent .footerCard .footerLinks .linkGroup .footerLists:hover .icon {
   color: var(--SecondaryColor);
+}
+.footer .secContent .footerCard .footerDiv {
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: var(--SecondaryColor);
+  padding: 0.5rem 0.2rem;
+}
+.footer .secContent .footerCard .footerDiv small {
+  font-size: 12px;
+  color: var(--whiteColor);
 }/*# sourceMappingURL=footer.css.map */

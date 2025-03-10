@@ -123,6 +123,11 @@ function Footer() {
               </li>
             </div>
           </div>
+
+          <div className="footerDiv flex">
+            <small>BEST TRAVEL THEME</small>
+            <small>COPYRIGHT RESERVED - HAYWHY 2025</small>
+          </div>
         </div>
       </div>
 
