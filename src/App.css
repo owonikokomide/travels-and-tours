@@ -20,6 +20,10 @@
   --cardHover: rgb(150, 150, 155);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a{
   text-decoration: none;
 }
