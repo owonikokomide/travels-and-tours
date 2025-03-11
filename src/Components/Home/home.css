@@ -168,7 +168,7 @@
     content: "";
     background: var(--SecondaryColor);
     height: 5px;
-    width: 145px;
+    width: 130px;
     right: 0px;
     bottom: 5px;
     z-index: -1;
@@ -185,6 +185,29 @@
 }
 @media screen and (min-width: 940px) {
   .home {
-    height: 70vh;
+    height: 85vh;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .home {
+    height: 95vh;
+  }
+  .home .homeContent {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .home .homeContent .cardDiv {
+    padding: 2rem 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .home .homeContent .cardDiv .input {
+    margin-bottom: 1rem;
+  }
+  .home .homeContent .cardDiv .searchOptions {
+    bottom: -1rem;
+    padding: 8px 1rem;
+  }
+  .home .homeContent .cardDiv .searchOptions span {
+    font-size: 17px;
   }
 }/*# sourceMappingURL=home.css.map */

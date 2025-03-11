@@ -148,3 +148,33 @@
         }
     }
   }
+
+
+
+  @media screen and (min-width:500px) {
+    .title{
+        font-size: 1.5rem;
+        &::after{
+            width: 115px !important;
+        }
+    }
+    .secContent{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+
+        .singleDestination{
+            height: auto;
+        }
+    }
+  }
+
+  @media screen and (min-width:840px) {
+    .secContent{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+
+        .singleDestination{
+            height: auto;
+        }
+    }
+  }
