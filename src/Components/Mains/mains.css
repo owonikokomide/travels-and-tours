@@ -29,7 +29,7 @@
   content: "";
   background: var(--SecondaryColor);
   height: 3px;
-  width: 85px;
+  width: 125px;
   right: 0;
   bottom: 5px;
   z-index: -1;
@@ -139,7 +139,7 @@
     font-size: 1.5rem;
   }
   .title::after {
-    width: 115px !important;
+    width: 145px !important;
   }
   .secContent {
     grid-template-columns: repeat(2, 1fr);

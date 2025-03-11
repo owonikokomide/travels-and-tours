@@ -29,7 +29,7 @@
                 content: "";
                 background: var(--SecondaryColor);
                 height: 3px;
-                width: 85px;
+                width: 125px;
                 right: 0;
                 bottom: 5px;
                 z-index: -1;
@@ -155,7 +155,7 @@
     .title{
         font-size: 1.5rem;
         &::after{
-            width: 115px !important;
+            width: 145px !important;
         }
     }
     .secContent{
