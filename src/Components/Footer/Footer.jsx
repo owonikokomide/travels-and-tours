@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 
 function Footer() {
 
- useEffect(()=>{
+ useEffect(()=>{ 
    Aos.init({duration: 2000})
   },[])
 
