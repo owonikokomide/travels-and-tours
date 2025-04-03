@@ -10,7 +10,7 @@ import { BsListTask } from 'react-icons/bs'
 import { TbApps } from 'react-icons/tb'  
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-
+ 
 function Home() {
   useEffect(()=>{
    Aos.init({duration: 2000})
