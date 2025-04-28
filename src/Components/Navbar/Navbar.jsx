@@ -22,7 +22,7 @@ function Navbar() {
         <a href="#" className='logo flex'>
             <h1>
                 <MdOutlineTravelExplore className='icon' />
-                Travels.
+               Owonikoko Travels.
             </h1>
             </a>
       </div>
